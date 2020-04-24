@@ -1,0 +1,46 @@
+<div class="pipe">
+  <h1>PIPES IN ANGULAR</h1>
+  <div class="pipes">
+    <div class="box">
+      <h2>Date pipes</h2>
+      <p>Full date:{{date}}</p>
+      <p>Short Date:{{date|date:'shortDate'}}</p>
+      <p>Medium Date:{{date|date:'mediumDate'}}</p>
+      <p>Full Date:{{date|date:'fullDate'}}</p>
+    </div>
+
+    <div class="box">
+      <h2>Time pipes</h2>
+      <p>Short Time:{{date|date:'shortTime'}}</p>
+      <p>Medium Time:{{date|date:'mediumTime'}}</p>
+      <p>Full Time:{{date|date:'fullTime'}}</p>
+    </div>
+
+    <div class="box">
+      <h2>Number pipes</h2>
+      <p>No formatting:{{num|number}}</p>
+      <p>2 Decimal places: {{num|number:'3.2-3'}}</p>
+    </div>
+
+    <div class="box">
+      <h2>Currency Pipes</h2>
+      <p>No formatting:{{num}}</p>
+      <p>USD Dollar($):{{num|currency:'USD'}}</p>
+      <p>USD Dollar:{{num|currency:'USD':'code'}}</p>
+      <p>INR():{{num|currency:'INR'}}</p>
+      <p>INR:{{num|currency:'INR':'code'}}</p>
+    </div>
+
+    <div class="box">
+      <h2>String Related Pipes</h2>
+      <p>Actual message:{{data}}</p>
+      <p>Lower Case :{{data|lowercase}}</p>
+      <p>Upper Case :{{data|uppercase}}</p>
+    </div>
+
+    <div class="box">
+      <h2>Percentage Pipes</h2>
+      <p>2 place formatting:{{num|percent:'5.2-3'}}</p>
+    </div>
+  </div>
+</div>
